@@ -1,7 +1,5 @@
 // Setup connection to server
 var socket = io();
-var userID = Math.round(Math.random()*1000000) + 1;
-socket.emit('add player');
 
 // Init button handling
 

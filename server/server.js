@@ -49,12 +49,16 @@ io.on('connection', function(socket){
   playerIDs.push(socket.id);
   console.log(playerIDs);
 
-  socket.emit('')
+  socket.on('disconnect', function(){
+    console.log('user disconnected');
+  });
 
   socket.on('control sent', function(msg){
     console.log('message: ' + msg);
 
     console.log('message: socketID: ' + socket.id + 'message: ' + msg);
+
+    io.emit('new command', {playerID: socket.id, command: msg});
   });
 
 });
