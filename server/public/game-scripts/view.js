@@ -14,7 +14,7 @@ app.view =  app.view || {
 
   		this.canMoveTo = function(gridX, gridY) {
   			if (app.game.gridCells[gridX][gridY].block) {
-  				return false;
+  				return true;
   			}
   			else {
   				return true;

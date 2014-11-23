@@ -23,96 +23,96 @@ app.game =  app.game || {
     })(),
 
     fillSlots: function() {
-        // // D
-        // this.gridCells[1][3].slot = new String("#FFF000");
-        // this.gridCells[1][4].slot = new String("#FFF000");
-        // this.gridCells[1][5].slot = new String("#FFF000");
-        // this.gridCells[1][6].slot = new String("#FFF000");
-        // this.gridCells[1][7].slot = new String("#FFF000");
-        // this.gridCells[1][8].slot = new String("#FFF000");
-        // this.gridCells[4][4].slot = new String("#FFF000");
-        // this.gridCells[4][5].slot = new String("#FFF000");
-        // this.gridCells[4][6].slot = new String("#FFF000");
-        // this.gridCells[4][7].slot = new String("#FFF000");
-        // this.gridCells[2][3].slot = new String("#FFF000");
-        // this.gridCells[3][3].slot = new String("#FFF000");
-        // this.gridCells[2][8].slot = new String("#FFF000");
-        // this.gridCells[3][8].slot = new String("#FFF000");
+        // D
+        this.gridCells[1][3].slot = new String("#FFF000");
+        this.gridCells[1][4].slot = new String("#FFF000");
+        this.gridCells[1][5].slot = new String("#FFF000");
+        this.gridCells[1][6].slot = new String("#FFF000");
+        this.gridCells[1][7].slot = new String("#FFF000");
+        this.gridCells[1][8].slot = new String("#FFF000");
+        this.gridCells[4][4].slot = new String("#FFF000");
+        this.gridCells[4][5].slot = new String("#FFF000");
+        this.gridCells[4][6].slot = new String("#FFF000");
+        this.gridCells[4][7].slot = new String("#FFF000");
+        this.gridCells[2][3].slot = new String("#FFF000");
+        this.gridCells[3][3].slot = new String("#FFF000");
+        this.gridCells[2][8].slot = new String("#FFF000");
+        this.gridCells[3][8].slot = new String("#FFF000");
 
-        // // E
-        // this.gridCells[6][3].slot = new String("#FFF000");
-        // this.gridCells[6][4].slot = new String("#FFF000");
-        // this.gridCells[6][5].slot = new String("#FFF000");
-        // this.gridCells[6][6].slot = new String("#FFF000");
-        // this.gridCells[6][7].slot = new String("#FFF000");
-        // this.gridCells[6][8].slot = new String("#FFF000");
-        // this.gridCells[7][6].slot = new String("#FFF000");
-        // this.gridCells[7][3].slot = new String("#FFF000");
-        // this.gridCells[8][3].slot = new String("#FFF000");
-        // this.gridCells[7][8].slot = new String("#FFF000");
-        // this.gridCells[8][8].slot = new String("#FFF000");
+        // E
+        this.gridCells[6][3].slot = new String("#FFF000");
+        this.gridCells[6][4].slot = new String("#FFF000");
+        this.gridCells[6][5].slot = new String("#FFF000");
+        this.gridCells[6][6].slot = new String("#FFF000");
+        this.gridCells[6][7].slot = new String("#FFF000");
+        this.gridCells[6][8].slot = new String("#FFF000");
+        this.gridCells[7][6].slot = new String("#FFF000");
+        this.gridCells[7][3].slot = new String("#FFF000");
+        this.gridCells[8][3].slot = new String("#FFF000");
+        this.gridCells[7][8].slot = new String("#FFF000");
+        this.gridCells[8][8].slot = new String("#FFF000");
 
-        // // V
-        // this.gridCells[10][3].slot = new String("#FFF000");
-        // this.gridCells[10][4].slot = new String("#FFF000");
-        // this.gridCells[10][5].slot = new String("#FFF000");
-        // this.gridCells[10][6].slot = new String("#FFF000");
-        // this.gridCells[10][7].slot = new String("#FFF000");
-        // this.gridCells[12][3].slot = new String("#FFF000");
-        // this.gridCells[12][4].slot = new String("#FFF000");
-        // this.gridCells[12][5].slot = new String("#FFF000");
-        // this.gridCells[12][6].slot = new String("#FFF000");
-        // this.gridCells[12][7].slot = new String("#FFF000");
-        // this.gridCells[11][8].slot = new String("#FFF000");
+        // V
+        this.gridCells[10][3].slot = new String("#FFF000");
+        this.gridCells[10][4].slot = new String("#FFF000");
+        this.gridCells[10][5].slot = new String("#FFF000");
+        this.gridCells[10][6].slot = new String("#FFF000");
+        this.gridCells[10][7].slot = new String("#FFF000");
+        this.gridCells[12][3].slot = new String("#FFF000");
+        this.gridCells[12][4].slot = new String("#FFF000");
+        this.gridCells[12][5].slot = new String("#FFF000");
+        this.gridCells[12][6].slot = new String("#FFF000");
+        this.gridCells[12][7].slot = new String("#FFF000");
+        this.gridCells[11][8].slot = new String("#FFF000");
 
-        // // F 
-        // this.gridCells[14][3].slot = new String("#FFF000");
-        // this.gridCells[14][4].slot = new String("#FFF000");
-        // this.gridCells[14][5].slot = new String("#FFF000");
-        // this.gridCells[14][6].slot = new String("#FFF000");
-        // this.gridCells[14][7].slot = new String("#FFF000");
-        // this.gridCells[14][8].slot = new String("#FFF000");
-        // this.gridCells[15][6].slot = new String("#FFF000");
-        // this.gridCells[15][3].slot = new String("#FFF000");
-        // this.gridCells[16][3].slot = new String("#FFF000");
+        // F 
+        this.gridCells[14][3].slot = new String("#FFF000");
+        this.gridCells[14][4].slot = new String("#FFF000");
+        this.gridCells[14][5].slot = new String("#FFF000");
+        this.gridCells[14][6].slot = new String("#FFF000");
+        this.gridCells[14][7].slot = new String("#FFF000");
+        this.gridCells[14][8].slot = new String("#FFF000");
+        this.gridCells[15][6].slot = new String("#FFF000");
+        this.gridCells[15][3].slot = new String("#FFF000");
+        this.gridCells[16][3].slot = new String("#FFF000");
 
-        // // E
-        // this.gridCells[18][3].slot = new String("#FFF000");
-        // this.gridCells[18][4].slot = new String("#FFF000");
-        // this.gridCells[18][5].slot = new String("#FFF000");
-        // this.gridCells[18][6].slot = new String("#FFF000");
-        // this.gridCells[18][7].slot = new String("#FFF000");
-        // this.gridCells[18][8].slot = new String("#FFF000");
-        // this.gridCells[19][6].slot = new String("#FFF000");
-        // this.gridCells[19][3].slot = new String("#FFF000");
-        // this.gridCells[20][3].slot = new String("#FFF000");
-        // this.gridCells[19][8].slot = new String("#FFF000");
-        // this.gridCells[20][8].slot = new String("#FFF000");
+        // E
+        this.gridCells[18][3].slot = new String("#FFF000");
+        this.gridCells[18][4].slot = new String("#FFF000");
+        this.gridCells[18][5].slot = new String("#FFF000");
+        this.gridCells[18][6].slot = new String("#FFF000");
+        this.gridCells[18][7].slot = new String("#FFF000");
+        this.gridCells[18][8].slot = new String("#FFF000");
+        this.gridCells[19][6].slot = new String("#FFF000");
+        this.gridCells[19][3].slot = new String("#FFF000");
+        this.gridCells[20][3].slot = new String("#FFF000");
+        this.gridCells[19][8].slot = new String("#FFF000");
+        this.gridCells[20][8].slot = new String("#FFF000");
 
-        // // S
-        // this.gridCells[22][3].slot = new String("#FFF000");
-        // this.gridCells[22][4].slot = new String("#FFF000");
-        // this.gridCells[22][5].slot = new String("#FFF000");
-        // this.gridCells[22][6].slot = new String("#FFF000");
-        // this.gridCells[22][8].slot = new String("#FFF000");
-        // this.gridCells[23][8].slot = new String("#FFF000");
-        // this.gridCells[23][6].slot = new String("#FFF000");
-        // this.gridCells[23][3].slot = new String("#FFF000");
-        // this.gridCells[24][3].slot = new String("#FFF000");
-        // this.gridCells[24][6].slot = new String("#FFF000");
-        // this.gridCells[24][7].slot = new String("#FFF000");
-        // this.gridCells[24][8].slot = new String("#FFF000");
+        // S
+        this.gridCells[22][3].slot = new String("#FFF000");
+        this.gridCells[22][4].slot = new String("#FFF000");
+        this.gridCells[22][5].slot = new String("#FFF000");
+        this.gridCells[22][6].slot = new String("#FFF000");
+        this.gridCells[22][8].slot = new String("#FFF000");
+        this.gridCells[23][8].slot = new String("#FFF000");
+        this.gridCells[23][6].slot = new String("#FFF000");
+        this.gridCells[23][3].slot = new String("#FFF000");
+        this.gridCells[24][3].slot = new String("#FFF000");
+        this.gridCells[24][6].slot = new String("#FFF000");
+        this.gridCells[24][7].slot = new String("#FFF000");
+        this.gridCells[24][8].slot = new String("#FFF000");
 
-        // // T
-        // this.gridCells[26][3].slot = new String("#FFF000");
-        // this.gridCells[27][3].slot = new String("#FFF000");
-        // this.gridCells[27][4].slot = new String("#FFF000");
-        // this.gridCells[27][5].slot = new String("#FFF000");
-        // this.gridCells[27][6].slot = new String("#FFF000");
-        // this.gridCells[27][7].slot = new String("#FFF000");
-        // this.gridCells[27][8].slot = new String("#FFF000");
-        // this.gridCells[28][3].slot = new String("#FFF000");
-        this.gridCells[28][3].slot = new String("#FFF000");        
+        // T
+        this.gridCells[26][3].slot = new String("#FFF000");
+        this.gridCells[27][3].slot = new String("#FFF000");
+        this.gridCells[27][4].slot = new String("#FFF000");
+        this.gridCells[27][5].slot = new String("#FFF000");
+        this.gridCells[27][6].slot = new String("#FFF000");
+        this.gridCells[27][7].slot = new String("#FFF000");
+        this.gridCells[27][8].slot = new String("#FFF000");
+        this.gridCells[28][3].slot = new String("#FFF000");
+             
     },
 
     createBlocks: function() {
@@ -226,7 +226,7 @@ app.game =  app.game || {
             }
         }
     
-        this.createBlocks();
+        //this.createBlocks();
         // this.gridCells[5][5].block = new app.view.Block(5,5);
         // this.gridCells[10][5].block = new app.view.Block(10,5);
         // this.gridCells[15][10].block = new app.view.Block(15,10);
@@ -271,6 +271,7 @@ app.game =  app.game || {
 
     draw: function() {
       app.game.context.clearRect(0, 0, app.game.width, app.game.height);
+
       for (var x = 0; x < this.width / 40; x++) {
             for (var y = 0; y < this.height / 40; y++) {
                 this.gridCells[x][y].draw();
