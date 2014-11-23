@@ -18,10 +18,17 @@ var playerIDs = [];
 
 
 app.use(express.static(__dirname + '/public'));
+
 app.get('/player', function(req, res){
     var requestedConnectionID = req.param('socketID');
     console.log(requestedConnectionID);
     res.sendFile(__dirname + '/index.html');
+});
+
+app.get('/game', function(req, res){
+    var requestedConnectionID = req.param('socketID');
+    console.log(requestedConnectionID);
+    res.sendFile(__dirname + '/game-index.html');
 });
 
 app.get( '/*' , function( req, res, next ) {
