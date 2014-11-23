@@ -1,1 +1,35 @@
-This is the players' devices' UI.
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <title>Matching Blocks</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="styles/package.css">
+</head>
+<body>
+    <h1>Move your block!</h1>
+    <div class="gamepad-wrapper">
+        <div class="gamepad">
+            <div class="row">
+                <div class="empty"></div>
+                <button class="up" data-direction="up">&#9650;</button>
+                <div class="empty"></div>
+            </div>
+            <div class="row">            
+                <button class="left" data-direction="left">&#9664;</button>
+                <div class="filled"></div>
+                <button class="right" data-direction="right">&#9654;</button>
+            </div>
+            <div class="row">
+                <div class="empty"></div>
+                <button class="down" data-direction="down">&#9660;</button>
+                <div class="empty"></div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
