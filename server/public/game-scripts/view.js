@@ -23,16 +23,28 @@ app.view =  app.view || {
  
 
   		this.moveUp = function() {
-  			if (this.gridY > 0 && this.gridY < app.game.height/40 - 1 && this.canMoveTo(this.gridX, this.gridY-1)) this.gridY--;
+  			if (this.gridY > 0 && this.gridY < app.game.height/40 - 1 && this.canMoveTo(this.gridX, this.gridY-1)) {
+  				app.game.gridCells[this.gridX][--this.gridY].block = this; 
+  				app.game.gridCells[this.gridX][this.gridY+1].block = undefined; 
+  			}
   		}
   		this.moveDown = function() {
-  	 		if (this.gridY > 0 && this.gridY < app.game.height/40 - 1 && this.canMoveTo(this.gridX, this.gridY+1)) this.gridY++;
+  	 		if (this.gridY > 0 && this.gridY < app.game.height/40 - 1 && this.canMoveTo(this.gridX, this.gridY+1)) {
+  	 			app.game.gridCells[this.gridX][++this.gridY].block = this; 
+  				app.game.gridCells[this.gridX][this.gridY-1].block = undefined; 
+  	 		}
   		}
   		this.moveLeft = function() {
-  			if (this.gridX > 0 && this.gridX < app.game.width/40 - 1 && this.canMoveTo(this.gridX-1, this.gridY)) this.gridX--;
+  			if (this.gridX > 0 && this.gridX < app.game.width/40 - 1 && this.canMoveTo(this.gridX-1, this.gridY)) {
+  				app.game.gridCells[--this.gridX][this.gridY].block = this; 
+  				app.game.gridCells[this.gridX+1][this.gridY].block = undefined; 
+  			}
   		}
   		this.moveRight = function() {
-  			if (this.gridX > 0 && this.gridX < app.game.width/40 - 1 && this.canMoveTo(this.gridX+1, this.gridY)) this.gridX++;
+  			if (this.gridX > 0 && this.gridX < app.game.width/40 - 1 && this.canMoveTo(this.gridX+1, this.gridY)) {
+  				app.game.gridCells[++this.gridX][this.gridY].block = this; 
+  				app.game.gridCells[this.gridX+1][this.gridY].block = undefined; 
+  			}
   		}
 
 		this.update = function() {
